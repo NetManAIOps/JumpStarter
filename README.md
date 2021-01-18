@@ -29,11 +29,12 @@ pylbfgs==0.2.0.13
 
 
 ## API Demo Usage
+
 cd detector
+
 python run_detector.py
 
 
 ## Anonymized Datasets
-dataset.zip
 
 We will release our datasets later.
