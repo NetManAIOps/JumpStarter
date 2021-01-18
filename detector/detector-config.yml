@@ -1,0 +1,42 @@
+sample_score_method: 
+  lesinn:  
+    phi: 20  
+    t: 40  
+  moving_average:  
+    window: 120  
+    stride: 5 
+anomaly_scoring: 
+  anomaly_score_example:
+    percentage: 90  
+    topn: 2  
+global:
+  random_state: 42  
+data:
+  path: '../data/data/service1.csv'  
+  label_path: '../data/label/service1.csv' 
+  save_path: './result'
+  row_begin: 0  
+  row_end: 30000  
+  col_begin: 0 
+  col_end: 100
+  rec_windows_per_cycle: 24
+  header: null 
+  reconstruct:
+    window: 60
+    stride: 10
+  detect:
+    window: 12
+    stride: 2
+detector_arguments:  
+  workers: 6  
+  anomaly_scoring: 'anomaly_score_example' 
+  sample_score_method: 'lesinn_score' 
+  cluster_threshold: 0.01  
+  sample_rate: 0.4 
+  latest_windows: 96 
+  scale: 5  
+  rho: 0.1  
+  sigma: 0.5  
+  retry_limit: 100 
+  without_grouping: null
+  without_localize_sampling: false 
