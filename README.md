@@ -27,7 +27,7 @@ Dataset2 and Dataset3 are collected from a top-tier global content platform _B_ 
 
 More details can be found in our [paper](https://www.usenix.org/conference/atc21/presentation/ma). 
 
-## Citing JumpStarter: 
+## Citing JumpStarter
 
 JumpStarter paper is published in USENIX ATC. If you use JumpStarter in a scientific publication, we would appreciate citations to the following paper:
 ```
