@@ -15,9 +15,9 @@ python run_detector.py
 
 ## Datasets
 
-[Dataset1](https://github.com/NetManAIOps/OmniAnomaly/tree/master/ServerMachineDataset) is collected from a large Internet company. 
+[Dataset1](https://github.com/NetManAIOps/OmniAnomaly/tree/master/ServerMachineDataset) is collected from a large Internet company _A_. 
 
-Dataset2 and Dataset3 are collected from a top-tier global content platform B providing services for over 800 million daily active (over 1 billion cumulative) users across all of its content platforms.
+Dataset2 and Dataset3 are collected from a top-tier global content platform _B_ providing services for over 800 million daily active (over 1 billion cumulative) users across all of its content platforms.
     
 |Dataset|# Services|# Metrics|# Training Days|# Test Days|Anomaly Ratio|  
 |----|----|----|----|----|----|
