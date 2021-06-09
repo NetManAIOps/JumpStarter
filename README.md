@@ -25,7 +25,7 @@ Dataset2 and Dataset3 are collected from a top-tier global content platform B pr
 |Dataset2|30|19|20|25|5.25|
 |Dataset3|30|19|20|25|20.26|
 
-More details can be found in JumpStarter paper. 
+More details can be found in our [paper](https://www.usenix.org/conference/atc21/presentation/ma). 
 
 ## Citing JumpStarter: 
 
