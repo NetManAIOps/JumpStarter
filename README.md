@@ -13,9 +13,17 @@ cd detector
 python run_detector.py
 ```
 
-## Anonymized Datasets
+## Datasets
 
-https://cloud.tsinghua.edu.cn/f/e958fb8ec7d14c84abe0/
+    [Dataset1]https://github.com/NetManAIOps/OmniAnomaly/tree/master/ServerMachineDataset collected from a large Internet company. 
+    Dataset2 & Dataset3 collected from a top-tier global content platform B providing services for over 800 million daily active (over 1 billion cumulative) users across all of its content platforms.
+    More details can be found in JumpStarter paper. 
+    
+|Dataset|# Services|# Metrics|# Training Days|# Test Days|Anomaly ratio|  
+|----|----|----|----|----|----|
+|Dataset1|28|38|13|13|4.16|
+|Dataset2|30|19|20|25|5.25|
+|Dataset3|30|19|20|25|20.26|
 
 ## Citing JumpStarter: 
 
