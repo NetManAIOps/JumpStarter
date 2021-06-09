@@ -19,7 +19,7 @@ python run_detector.py
 
 Dataset2 and Dataset3 are collected from a top-tier global content platform B providing services for over 800 million daily active (over 1 billion cumulative) users across all of its content platforms.
     
-|Dataset|# Services|# Metrics|# Training Days|# Test Days|Anomaly ratio|  
+|Dataset|# Services|# Metrics|# Training Days|# Test Days|Anomaly Ratio|  
 |----|----|----|----|----|----|
 |Dataset1|28|38|13|13|4.16|
 |Dataset2|30|19|20|25|5.25|
