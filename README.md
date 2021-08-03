@@ -33,3 +33,13 @@ JumpStarter paper is published in USENIX ATC. If you use JumpStarter in a scient
 ```
 Ma, M., Zhang, S. and Chen, J., et.al. Jump-Starting Multivariate Time Series Anomaly Detection for Online Service Systems. USENIX ATC 2021.
 ```
+BibTex:
+```
+@inproceedings{ma2021jump,
+  title={Jump-Starting Multivariate Time Series Anomaly Detection for Online Service Systems},
+  author={Ma, Minghua and Zhang, Shenglin and Chen, Junjie and Xu, Jim and Li, Haozhe and Lin, Yongliang and Nie, Xiaohui and Zhou, Bo and Wang, Yong and Pei, Dan},
+  booktitle={2021 $\{$USENIX$\}$ Annual Technical Conference ($\{$USENIX$\}$$\{$ATC$\}$ 21)},
+  pages={413--426},
+  year={2021}
+}
+```
