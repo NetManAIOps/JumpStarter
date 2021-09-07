@@ -29,9 +29,9 @@ More details can be found in our [paper](https://www.usenix.org/conference/atc21
 
 ## Citing JumpStarter
 
-JumpStarter paper is published in USENIX ATC. If you use JumpStarter in a scientific publication, we would appreciate citations to the following paper:
+JumpStarter paper is published in **USENIX ATC 2021**. If you use JumpStarter, we would appreciate citations to the following paper:
 
-`Jump-Starting Multivariate Time Series Anomaly Detection for Online Service Systems. USENIX ATC 2021.`
+`Jump-Starting Multivariate Time Series Anomaly Detection for Online Service Systems.`
 
 > By Minghua Ma, Shenglin Zhang, Junjie Chen, Dan Pei, et.al. 
 
@@ -39,8 +39,9 @@ BibTex:
 ```
 @inproceedings{ma2021jump,
   title={Jump-Starting Multivariate Time Series Anomaly Detection for Online Service Systems},
-  author={Ma, Minghua and Zhang, Shenglin and Chen, Junjie and Xu, Jim and Li, Haozhe and Lin, Yongliang and Nie, Xiaohui and Zhou, Bo and Wang, Yong and Pei, Dan},
-  booktitle={2021 $\{$USENIX$\}$ Annual Technical Conference ($\{$USENIX$\}$$\{$ATC$\}$ 21)},
+  author={Ma, Minghua and Zhang, Shenglin and Chen, Junjie and Xu, Jim and Li, Haozhe and Lin, 
+  Yongliang and Nie, Xiaohui and Zhou, Bo and Wang, Yong and Pei, Dan},
+  booktitle={Proceedings of the USENIX Annual Technical Conference (USENIX ATC 21)},
   pages={413--426},
   year={2021}
 }
