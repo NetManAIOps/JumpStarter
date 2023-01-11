@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../")
+
 import numpy as np
 import pandas as pd
 import yaml
@@ -235,7 +238,7 @@ if __name__ == '__main__':
 
     from detector import CSAnomalyDetector
     from utils import normalization
-    from utils.metrics import sliding_anomaly_predict, evaluate_result, evaluation
+    from utils.metrics import evaluation
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--config', type=str, help='config path')

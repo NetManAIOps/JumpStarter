@@ -51,7 +51,7 @@ def reconstruct(n, d, index, value):
     # do L1 optimization
     vx = cvx.Variable(d * n)
     objective = cvx.Minimize(cvx.norm(vx, 1))
-    constraints = [transform_mat * vx == b]
+    constraints = [transform_mat @ vx == b]
     prob = cvx.Problem(objective, constraints)
     prob.solve(solver='OSQP')
     x_transformed = np.array(vx.value).squeeze()
